@@ -1,1 +1,1 @@
-# E-commerce App
+# RoverStore🧭 (E-commerce for Explorers)
