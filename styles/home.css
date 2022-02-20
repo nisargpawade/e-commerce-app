@@ -51,7 +51,7 @@ a {
 
 .hero-text {
   position: absolute;
-  top: 50%;
+  top: 30rem;
   left: 15%;
   color: var(--white);
 }
