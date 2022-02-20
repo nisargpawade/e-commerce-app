@@ -1,0 +1,31 @@
+.signup-container {
+  display: flex;
+  flex-direction: column;
+  width: 50rem;
+  margin: 15rem auto 0 auto;
+  padding: 3rem 5rem;
+  border-radius: 8px;
+  box-shadow: var(--box-shadow);
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.signup-btn {
+  padding: 1rem;
+  border-radius: 5px;
+  border: none;
+  font-size: 1.85rem;
+  background-color: var(--info-dark);
+  cursor: pointer;
+}
+.signup-btn:hover {
+  background-color: var(--info);
+}
