@@ -1,0 +1,12 @@
+@import url("https://ui-falcon.netlify.app/styles/components.css");
+@import url("./home.css");
+@import url("../pages/login/login.css");
+@import url("../pages/signup/signup.css");
+
+:root {
+  --secondary: #292524;
+}
+
+.secondary-c {
+  color: var(--secondary);
+}
