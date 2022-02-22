@@ -1,0 +1,11 @@
+.wishlist-container {
+  display: flex;
+  margin: auto;
+  margin-top: 8rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card .fa-heart {
+  color: var(--error-darker);
+}
