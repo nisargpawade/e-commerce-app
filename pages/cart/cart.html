@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/b24c8ca7df.js"
+      crossorigin="anonymous"
+    ></script>
+    <link href="../../styles/main.css" rel="stylesheet" />
+    <title>RoverStore|Cart</title>
+  </head>
+  <body>
+    <!-- navbar starts -->
+    <nav class="navbar">
+      <div class="nav-brand">
+        <a href="../../index.html"><i class="far fa-compass"></i>RoverStore</a>
+      </div>
+      <div class="searchbar">
+        <i class="fas fa-search p-md padding-1 secondary-c"></i>
+        <input type="search" placeholder="Search" />
+      </div>
+      <div class="nav-pills">
+        <a class="btn btn-link" href="../login/login.html">Login</a>
+        <div class="badge margin-1">
+          <a href="../wishlist/wishlist.html">
+            <i class="fas fa-heart"></i>
+            <p class="primary secondary-c">4</p>
+          </a>
+        </div>
+        <div class="badge margin-1">
+          <a href="./cart.html">
+            <i class="fas fa-shopping-cart"></i>
+            <p class="primary secondary-c">2</p>
+          </a>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar ends -->
+
+    <div class="cart-container">
+        <h1 class="txt-center">My Cart</h1>
+        <div class="cart-main">
+            <div class="card horizontal-card margin-1">
+                <div class="card-img-container">
+                  <img
+                    class="card-img"
+                    src="../../assets/product.jpg"
+                    alt="product img"
+                  />
+                </div>
+                <div class="card-main padding-1">
+                  <div class="card-text margin-l-1">
+                    <p class="p-md"><b>Men's R1 Air Zip-Neck</b></p>
+                    <p class="p-sm">Patagonia</p>
+                    <p class="p-md"><b>₹8899</b> <span class="p-sm"><s>₹9500</s></span></p>
+                    <p class="p-md fw-bold">7% off</p>
+                    <div class="quantity-container">
+                        <p class="p-sm">Quantity: </p>
+                        <button class="margin-l-1 primary">-</button>
+                        <p class="margin-l-1 p-sm">1</p>
+                        <button class="margin-l-1 primary">+</button>
+                    </div>
+                  </div>
+                  <div class="card-btns">
+                    <button class="btn">Remove from cart</button>
+                    <button class="btn btn-ol">Move to wishlist</button>
+                  </div>
+                </div>
+            </div>
+
+            <div class="card price-container padding-1">
+                <p class="fw-bold">PRICE DETAILS</p>
+                <hr class="margin-b-1">
+                <div>
+                    <p>Price(1 item)</p>
+                    <p class="txt-right">₹8899</p>
+                </div>
+                <div>
+                    <p>Discount</p>
+                    <p class="txt-right">-₹601</p>
+                </div>
+                <div>
+                    <p>Delivery Charges</p>
+                    <p class="txt-right">₹499</p>
+                </div>
+                <hr class="margin-b-1">
+                <div>
+                    <p class="fw-bold">TOTAL AMOUNT</p>
+                    <p class="fw-bold">₹9398</p>
+                </div>
+                <hr class="margin-b-1">
+                <p>You will save ₹601 on this order</p>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>

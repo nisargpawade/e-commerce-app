@@ -1,0 +1,42 @@
+.products-container {
+  display: grid;
+  grid-template-columns: 27rem 1fr;
+  margin-top: 5.9rem;
+}
+
+/* ---- filter ---- */
+.filters {
+  background-color: var(--inactive-light);
+  padding: 2rem;
+  padding-left: 3rem;
+  height: 100vh;
+}
+
+.filter-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.slider-labels {
+  display: flex;
+  margin-left: 1rem;
+  justify-content: space-between;
+}
+
+.slider-container input{
+  width: 100%;
+}
+
+/* ---- cards ---- */
+.product-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 27rem);
+  justify-content: center;
+  padding: 2rem 0;
+}
+
+.product-cards .card {
+  width: auto;
+  max-height: 41.5rem;
+}
